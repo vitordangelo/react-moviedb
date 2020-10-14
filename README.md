@@ -1,68 +1,112 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 1. Introduction
 
-## Available Scripts
+- [x] 1. Welcome to the course!
+- [x] 2. The App
+- [x] 3. The Movie DB API and API Key
+- [x] 4. What is React
 
-In the project directory, you can run:
+# 2. Project Setup
 
-### `npm start`
+- [x] 1. CHOICE - Starter files or create from scratch
+- [x] 2. Short about tooling
+- [x] 3. Bootstrap with Create React App
+- [x] 4. Install Dependencies
+- [x] 5. Copy files from Starter Files
+- [x] 6. Setup .env file and API Key
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 3. React Basics
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+- [x] 1. React without JSX
+- [x] 2. Short about JSX
+- [x] 3. Crash course in Props and State
 
-### `npm test`
+# 4. Styled Components
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [x] 1. Short about Styled Components
+- [x] 2. Global Styles with Styled Components
 
-### `npm run build`
+# 5. Header
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [x] 1. Header Component
+- [x] 2. Header Component - Styles
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# 6. Home Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] 1. Home Component - Scaffold
+- [x] 2. Short about built in React Hooks
+- [] 3. Home Component - Fetch data with hooks
+- [] 4. Custom Hook - useHomeFetch
+- [] 5. HeroImage Component
+- [] 6. HeroImage Component - Styles
+- [] 7. Grid Component
+- [] 8. Grid Component - Styles
+- [] 9. Thumb Component
+- [] 10. Thumb Component - Styles
+- [] 11. Spinner Component
+- [] 12. SearchBar Component
+- [] 13. SearchBar Component - Styles
+- [] 14. SearchBar Component - Fetching logic
+- [] 15. Button Component
+- [] 16. Button Component - Styles
+- [] 17. Button Component - Fetching logic
 
-### `npm run eject`
+# 7. Routing
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [] 1. Short about React-Router v6
+- [] 2. Set up routes
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 8. Movie Page
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- [] 1. Movie Component - Scaffold
+- [] 2. Movie Component - Fetch data with hooks
+- [] 3. BreadCrumb Component
+- [] 4. BreadCrumb Component - Styles
+- [] 5. MovieInfo Component
+- [] 6. MovieInfo Component - Styles
+- [] 7. MovieInfoBar Component
+- [] 8. MovieInfoBar Component Styles
+- [] 9. Actor Component
+- [] 10. Actor Component - Styles
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# 9. PropTypes
 
-## Learn More
+- [] 1. Short about PropTypes
+- [] 2. Validate props with PropTypes
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 10. Persisting state in sessionStorage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [] 1. Short about sessionStorage
+- [] 2. sessionStorage - Home Page
+- [] 3. sessionStorage - Movie Page
 
-### Code Splitting
+# 11. Deploy
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- [] 1. Make a production build
+- [] 2. Netlify - Drag and drop & Netlify CLI
+- [] 3. Netlify - Continuous deployment
 
-### Analyzing the Bundle Size
+# 12. Refactor into Classes
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+- [] 1. Classes - SearchBar
+- [] 2. Classes - Home Component
+- [] 3. Classes - Movie Component
 
-### Making a Progressive Web App
+# 13. Refactor into TypeScript
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- [] 1. Short about Typescript
+- [] 2. Typescript - Create project with CRA and install dependencies
+- [] 3. Typescript - Refactor base file
+- [] 4. Typescript - Refactor Home Page
+- [] 5. Typescript - Refactor Movie Page
 
-### Advanced Configuration
+# 14. TMDB Login and rating
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [] 1. Short about TMDB login and rating
+- [] 2. Global Context
+- [] 3. Login Component
+- [] 4. Login Component - Styles
+- [] 5. Login from Header
+- [] 6. Rate Component
+- [] 7. Rating in MovieInfo
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+[Repository](https://github.com/weibenfalk/rmdb-v3)
