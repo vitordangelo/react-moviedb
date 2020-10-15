@@ -34,10 +34,10 @@
 
 - [x] 1. Home Component - Scaffold
 - [x] 2. Short about built in React Hooks
-- [] 3. Home Component - Fetch data with hooks
-- [] 4. Custom Hook - useHomeFetch
-- [] 5. HeroImage Component
-- [] 6. HeroImage Component - Styles
+- [x] 3. Home Component - Fetch data with hooks
+- [x] 4. Custom Hook - useHomeFetch
+- [x] 5. HeroImage Component
+- [x] 6. HeroImage Component - Styles
 - [] 7. Grid Component
 - [] 8. Grid Component - Styles
 - [] 9. Thumb Component
