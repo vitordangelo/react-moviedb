@@ -38,10 +38,10 @@
 - [x] 4. Custom Hook - useHomeFetch
 - [x] 5. HeroImage Component
 - [x] 6. HeroImage Component - Styles
-- [] 7. Grid Component
-- [] 8. Grid Component - Styles
-- [] 9. Thumb Component
-- [] 10. Thumb Component - Styles
+- [x] 7. Grid Component
+- [x] 8. Grid Component - Styles
+- [x] 9. Thumb Component
+- [x] 10. Thumb Component - Styles
 - [] 11. Spinner Component
 - [] 12. SearchBar Component
 - [] 13. SearchBar Component - Styles
