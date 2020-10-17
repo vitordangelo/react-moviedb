@@ -42,12 +42,12 @@
 - [x] 8. Grid Component - Styles
 - [x] 9. Thumb Component
 - [x] 10. Thumb Component - Styles
-- [] 11. Spinner Component
-- [] 12. SearchBar Component
-- [] 13. SearchBar Component - Styles
-- [] 14. SearchBar Component - Fetching logic
-- [] 15. Button Component
-- [] 16. Button Component - Styles
+- [x] 11. Spinner Component
+- [x] 12. SearchBar Component
+- [x] 13. SearchBar Component - Styles
+- [x] 14. SearchBar Component - Fetching logic
+- [x] 15. Button Component
+- [x] 16. Button Component - Styles
 - [] 17. Button Component - Fetching logic
 
 # 7. Routing
