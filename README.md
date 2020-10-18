@@ -48,19 +48,19 @@
 - [x] 14. SearchBar Component - Fetching logic
 - [x] 15. Button Component
 - [x] 16. Button Component - Styles
-- [] 17. Button Component - Fetching logic
+- [x] 17. Button Component - Fetching logic
 
 # 7. Routing
 
-- [] 1. Short about React-Router v6
-- [] 2. Set up routes
+- [x] 1. Short about React-Router v6
+- [x] 2. Set up routes
 
 # 8. Movie Page
 
-- [] 1. Movie Component - Scaffold
-- [] 2. Movie Component - Fetch data with hooks
-- [] 3. BreadCrumb Component
-- [] 4. BreadCrumb Component - Styles
+- [x] 1. Movie Component - Scaffold
+- [x] 2. Movie Component - Fetch data with hooks
+- [x] 3. BreadCrumb Component
+- [x] 4. BreadCrumb Component - Styles
 - [] 5. MovieInfo Component
 - [] 6. MovieInfo Component - Styles
 - [] 7. MovieInfoBar Component

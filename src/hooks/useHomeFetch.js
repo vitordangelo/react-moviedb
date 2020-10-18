@@ -23,7 +23,8 @@ export const useHomeFetch = () => {
       const movies = await API.fetchMovies(searchTerm, page);
       setState((prev) => ({
         ...movies,
-        results: page > 1 ? [...prev.results, ...movies] : [...movies.results],
+        results:
+          page > 1 ? [...prev.results, ...movies.results] : [...movies.results],
       }));
     } catch (error) {
       setError(true);
@@ -35,6 +36,13 @@ export const useHomeFetch = () => {
     setState(initialState);
     fetchMovies(1, searchTerm);
   }, [searchTerm]);
+
+  useEffect(() => {
+    if (!isLoadingMore) return;
+
+    fetchMovies(state.page + 1, searchTerm);
+    setIsLoadingMore(false);
+  }, [isLoadingMore, searchTerm, state.page]);
 
   return { state, loading, error, searchTerm, setSearchTerm, setIsLoadingMore };
 };
