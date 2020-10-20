@@ -61,16 +61,16 @@
 - [x] 2. Movie Component - Fetch data with hooks
 - [x] 3. BreadCrumb Component
 - [x] 4. BreadCrumb Component - Styles
-- [] 5. MovieInfo Component
-- [] 6. MovieInfo Component - Styles
-- [] 7. MovieInfoBar Component
-- [] 8. MovieInfoBar Component Styles
-- [] 9. Actor Component
-- [] 10. Actor Component - Styles
+- [x] 5. MovieInfo Component
+- [x] 6. MovieInfo Component - Styles
+- [x] 7. MovieInfoBar Component
+- [x] 8. MovieInfoBar Component Styles
+- [x] 9. Actor Component
+- [x] 10. Actor Component - Styles
 
 # 9. PropTypes
 
-- [] 1. Short about PropTypes
+- [x] 1. Short about PropTypes
 - [] 2. Validate props with PropTypes
 
 # 10. Persisting state in sessionStorage
