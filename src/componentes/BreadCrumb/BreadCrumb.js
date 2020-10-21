@@ -19,7 +19,7 @@ const BreadCrumb = ({ movieTitle }) => {
   );
 };
 
-BreadCrumb.prototype = {
+BreadCrumb.propTypes = {
   movieTitle: PropTypes.string,
 };
 

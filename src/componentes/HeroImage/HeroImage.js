@@ -16,7 +16,7 @@ const HeroImage = ({ image, title, text }) => {
   );
 };
 
-HeroImage.prototype = {
+HeroImage.propTypes = {
   image: PropTypes.string,
   title: PropTypes.string,
   text: PropTypes.string,

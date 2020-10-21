@@ -71,19 +71,19 @@
 # 9. PropTypes
 
 - [x] 1. Short about PropTypes
-- [] 2. Validate props with PropTypes
+- [x] 2. Validate props with PropTypes
 
 # 10. Persisting state in sessionStorage
 
-- [] 1. Short about sessionStorage
-- [] 2. sessionStorage - Home Page
-- [] 3. sessionStorage - Movie Page
+- [x] 1. Short about sessionStorage
+- [x] 2. sessionStorage - Home Page
+- [x] 3. sessionStorage - Movie Page
 
 # 11. Deploy
 
-- [] 1. Make a production build
-- [] 2. Netlify - Drag and drop & Netlify CLI
-- [] 3. Netlify - Continuous deployment
+- [x] 1. Make a production build
+- [x] 2. Netlify - Drag and drop & Netlify CLI
+- [x] 3. Netlify - Continuous deployment
 
 # 12. Refactor into Classes
 
@@ -101,12 +101,12 @@
 
 # 14. TMDB Login and rating
 
-- [] 1. Short about TMDB login and rating
-- [] 2. Global Context
-- [] 3. Login Component
+- [x] 1. Short about TMDB login and rating
+- [x] 2. Global Context
+- [] 3. Login Component --- 4:30
 - [] 4. Login Component - Styles
 - [] 5. Login from Header
 - [] 6. Rate Component
 - [] 7. Rating in MovieInfo
 
-[Repository](https://github.com/weibenfalk/rmdb-v3)
+[Repository](https://github.com/weibenfalk/react-rmdb-v3-starter-files/tree/master/4.%20Finished%20App/react-rmdb-finished-rating/src)

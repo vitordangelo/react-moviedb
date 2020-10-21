@@ -41,7 +41,7 @@ const MovieInfo = ({ movie }) => {
   );
 };
 
-MovieInfo.prototype = {
+MovieInfo.propTypes = {
   movie: PropTypes.object,
 };
 

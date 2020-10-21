@@ -13,7 +13,7 @@ const Actor = ({ name, character, imageUrl }) => {
   );
 };
 
-Actor.prototype = {
+Actor.propTypes = {
   name: PropTypes.string,
   character: PropTypes.string,
   imageUrl: PropTypes.string,

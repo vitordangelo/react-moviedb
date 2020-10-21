@@ -12,7 +12,7 @@ const Grid = ({ header, children }) => {
   );
 };
 
-Grid.prototype = {
+Grid.propTypes = {
   header: PropTypes.string,
 };
 

@@ -11,9 +11,9 @@ const Button = ({ text, callback }) => {
   );
 };
 
-Button.prototype = {
+Button.propTypes = {
   text: PropTypes.string,
-  callback: PropTypes.function,
+  callback: PropTypes.func,
 };
 
 export default Button;
