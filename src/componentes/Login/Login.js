@@ -15,12 +15,28 @@ const Login = () => {
   const [_user, setUser] = useContext(Context);
   const navigate = useNavigate();
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
+  const handleSubmit = async () => {
+    setError(false);
+
+    try {
+      const requestToken = await API.getRequestToken();
+      const sessionId = await API.authenticate(
+        requestToken,
+        username,
+        password
+      );
+
+      setUser({ sessionId: sessionId.session_id, username });
+      navigate("/");
+    } catch (error) {
+      setError(true);
+    }
   };
 
   return (
     <Wrapper>
+      {error && <div className="error">There was an error!</div>}
+
       <label>Username:</label>
       <input
         type="text"

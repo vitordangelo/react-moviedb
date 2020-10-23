@@ -103,9 +103,9 @@
 
 - [x] 1. Short about TMDB login and rating
 - [x] 2. Global Context
-- [] 3. Login Component --- 4:30
-- [] 4. Login Component - Styles
-- [] 5. Login from Header
+- [x] 3. Login Component
+- [x] 4. Login Component - Styles
+- [x] 5. Login from Header
 - [] 6. Rate Component
 - [] 7. Rating in MovieInfo
 

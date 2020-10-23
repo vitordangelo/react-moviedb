@@ -4,6 +4,7 @@ export const Wrapper = styled.div`
   background: var(--darkGrey);
   padding: 0 20px;
 `;
+
 export const Content = styled.div`
   display: flex;
   align-items: center;
@@ -11,7 +12,14 @@ export const Content = styled.div`
   max-width: var(--maxWidth);
   padding: 20px 0;
   margin: 0 auto;
+  color: var(--white);
+
+  a {
+    color: var(--white);
+    text-decoration: none;
+  }
 `;
+
 export const LogoImg = styled.img`
   width: 200px;
 
